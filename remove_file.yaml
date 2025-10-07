@@ -1,0 +1,7 @@
+- name: Remove file (delete file)
+  hosts: all
+  become: true
+  tasks:
+    - ansible.builtin.file:
+        path: /path/to/your/file.txt
+        state: absent
