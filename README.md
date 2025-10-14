@@ -1,16 +1,8 @@
 # Ansible Playbooks: 
 
-# Ansible Automation Project
-
 This repository contains Ansible playbooks and roles for automating various tasks and configurations.
 
-## 📂 Project Structure
 
-The project is organized as follows:
-
-ansible/
-├── playbooks/ # Contains main playbooks
-README.md
 
 Example of Playbook:
 ## Files
