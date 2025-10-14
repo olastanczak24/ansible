@@ -1,7 +1,18 @@
-# Ansible Playbook: Remove File
+# Ansible Playbooks: 
 
-This repository contains a simple Ansible setup to remove a specific file from target hosts. It includes a playbook, inventory, and configuration file.
+# Ansible Automation Project
 
+This repository contains Ansible playbooks and roles for automating various tasks and configurations.
+
+## 📂 Project Structure
+
+The project is organized as follows:
+
+ansible/
+├── playbooks/ # Contains main playbooks
+README.md
+
+Example of Playbook:
 ## Files
 
 - **remove_file.yml**  
