@@ -1,1 +1,10 @@
-
+- name: Create a tar.gz archive of a folder.
+  hosts: all
+  become: true
+  tasks:
+    - community.general.archive:
+        path: /path/to/your/folder
+        dest: /path/to/your/folder.tar.gz
+        format: gz
+        force_archive: true
+        remove: true
